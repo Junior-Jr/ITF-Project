@@ -7,11 +7,12 @@
 .card-deck{
     padding: 50px;
 }
-.btn-outline-dark{
+.btn-search{
     color: #FF5151;
-
+    border-color: #FF5151;
+    background-color: transparent;
 }
-.btn-outline{
+.btn-search:hover{
     color: #fff;
     background-color: #FF5151;
     border-color: #FF5151;
