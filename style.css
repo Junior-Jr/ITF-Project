@@ -1,0 +1,18 @@
+.navbar-dark{
+    background-color: #000249;
+}
+.nav-item{
+    color: #fff;
+}
+.card-deck{
+    padding: 50px;
+}
+.btn-outline-dark{
+    color: #FF5151;
+
+}
+.btn-outline{
+    color: #fff;
+    background-color: #FF5151;
+    border-color: #FF5151;
+}
