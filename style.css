@@ -20,13 +20,6 @@
     background-color: #FF5151;
     border-color: #FF5151;
 }
-.btn-search:focus{
-    border-color: #FF5151;
-}
-.btn-search:active{
-    color: #FF5151;
-    border-color: #FF5151;
-}
 .btn-search span {
   cursor: pointer;
   display: inline-block;
