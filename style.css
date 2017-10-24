@@ -4,14 +4,18 @@
 .nav-item{
     color: #fff;
 }
+.col-md-10{
+    padding: 3.4%;
+}
 .card-deck{
     padding: 50px;
+    display: 150%;
 }
 .btn-search{
     color: #FF5151;
     border-color: #FF5151;
     background-color: transparent;
-    transition: all 0.5s;
+    transition: all 0.3s;
     cursor: pointer;
     width: 125px;
 }
@@ -24,7 +28,7 @@
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 .btn-search span:after {
@@ -33,7 +37,7 @@
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .btn-search:hover span {
