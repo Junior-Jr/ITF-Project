@@ -1973,7 +1973,6 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
 			}
 
 		}
@@ -3269,4 +3268,11 @@
 					padding: 0;
 				}
 
+		}
+
+		#one{
+			height: 100%;
+		}
+		.container{
+			padding-top: 7.5%;
 		}
