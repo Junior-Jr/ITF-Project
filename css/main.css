@@ -2592,7 +2592,11 @@
 	}
 
 		header.major h2 {
-			font-size: 3em;
+			font-size: 4em;
+			font-family: 'Poppins', sans-serif;
+			letter-spacing: 2px;
+
+
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -3091,7 +3095,7 @@
 	}
 
 	#banner {
-		padding: 10em 0 13em 0;
+		padding: 12em 0 13em 0;
 		background-attachment: fixed;
 		background-image: url("../images/overlay.png"), url("../images/banner.jpg");
 		background-position: center top;
