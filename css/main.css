@@ -3286,3 +3286,17 @@
 			margin: auto;
     		padding: 10px;
 		}
+
+		.card-title{
+			font-size: 1em;
+		}
+
+		.card-text{
+			padding-top: 0em;
+			padding-bottom: 0em;
+		}
+
+		.card-body {
+			padding-top: 1em;
+			height: 55px;
+		}
