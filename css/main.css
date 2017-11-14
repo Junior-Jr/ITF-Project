@@ -1762,7 +1762,8 @@
 	}
 
 		hr.major {
-			margin: 3em 0;
+			margin: 1em 0;
+
 		}
 
 	.align-left {
@@ -2592,7 +2593,9 @@
 	}
 
 		header.major h2 {
-			font-size: 3em;
+			font-size: 4em;
+			font-family: 'Poppins', sans-serif;
+			letter-spacing: 2px;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -3091,7 +3094,7 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 12em 0 13em 0;
 		background-attachment: fixed;
 		background-image: url("../images/overlay.png"), url("../images/banner.jpg");
 		background-position: center top;
@@ -3276,4 +3279,35 @@
 
 		.container{
 			padding-top: 3.5%;
+		}
+
+		.card-deck{
+				margin: auto;
+    		padding: 0px;
+		}
+
+		.card-zone {
+  			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+				background: #fff;
+				border-radius: 5px;
+				display: inline-block;
+				height: 300px;
+				margin: 1rem;
+				position: relative;
+				width: 300px;
+		}
+
+		.card-title{
+			font-size: 1em;
+		}
+
+		.card-text{
+			padding-top: 0em;
+			padding-bottom: 0em;
+		}
+
+		.card-body {
+			padding-top: 2em;
+			margin-bottom: 1em;
+			height: 55px;
 		}
