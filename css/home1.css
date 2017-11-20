@@ -33,7 +33,7 @@ a.btn:active {
 div.cards {
   margin: 100px auto;
   max-width: 1000px;
-  text-align: center;
+  text-align: left;
 
 }
 div.card {
