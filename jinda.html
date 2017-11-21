@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Athiti|Kanit|Mitr" rel="stylesheet">
 
 
-    </head>
+
 </head>
     <body class="landing">
 
@@ -40,7 +40,6 @@
                 </nav>
             </header>
 
-            <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
         <!-- Banner -->
             <section id="banner">
@@ -244,6 +243,59 @@
        </div>
 
 
+<!-- -- form upload -- -->
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Upload</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PicLet's</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name : </label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Discription : </label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+
+        <input id="input-b1" name="input-b1" type="file" class="file">
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- -- form upload -- -->
+
+
+
+
+
+
 
        <!-- Modal -->
        <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -257,7 +309,7 @@
                    <!-- Sign In Form -->
                    <!-- Text input-->
                    <div class="control-group">
-                     <label class="control-label" for="userid">Alias:</label>
+                     <label class="control-label" for="userid">Username : </label>
                      <div class="controls">
                        <input required="" id="userid" name="userid" type="text" class="form-control input-medium" placeholder="JoeSixpack">
                      </div>
@@ -265,7 +317,7 @@
 
                    <!-- Password input-->
                    <div class="control-group">
-                     <label class="control-label" for="passwordinput">Password:</label>
+                     <label class="control-label" for="passwordinput">Password : </label>
                      <div class="controls">
                        <input required="" id="passwordinput" name="passwordinput" class="form-control input-medium" type="password" placeholder="********">
                      </div>
