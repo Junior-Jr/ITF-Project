@@ -903,6 +903,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			padding-top: 20px;
 			font-family: "Raleway", Arial, Helvetica, sans-serif;
 		}
 
@@ -910,6 +911,7 @@
 				display: inline-block;
 				padding: 0 1em 0 0;
 				vertical-align: middle;
+
 			}
 
 				ul.actions li:last-child {
@@ -2101,6 +2103,13 @@
 	background-color: #007bff;
 	font-family: "Raleway", Arial, Helvetica, sans-serif;
 	font-weight: bold;
+	border-radius: 10px;
+}
+
+#explore {
+
+	border-radius: 10px;
+
 }
 
 .fade {
@@ -2119,5 +2128,10 @@
 	border: 1px solid rgba(0,0,0,.2);
 	border-radius: .3rem;
 	outline: 0;
-	width: 500px;
+
+}
+
+@media (min-width: 576px) {
+	.modal-sm {
+	    max-width: 500px;
 }

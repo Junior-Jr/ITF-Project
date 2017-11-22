@@ -289,3 +289,15 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.modal-body {
+
+  font-family: 'Athiti', sans-serif;
+  font-size: 20px;
+
+}
+
+label.control-label {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
