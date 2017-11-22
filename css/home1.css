@@ -51,14 +51,14 @@ a.btn:active {
 }
 div.cards {
   margin: 100px auto;
-  max-width: 1000px;
+  max-width: 1400px;
   text-align: left;
 
 }
 div.card {
   background: #ffffff;
   display: inline-block;
-  margin: 14px;
+  margin: 20px;
   max-width: 2000px;
   -webkit-perspective: 0;
           perspective: 0;

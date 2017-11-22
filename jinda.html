@@ -35,12 +35,7 @@
                         <li><a href="jinda.html">Jinda</a></li>
                         <li><a href="gaygee.html">Gaygee</a></li>
                         <li><a href="v-condo.html">V-Condo</a></li>
-                        <li class="dropdown"><a class="dropbtn">NAME USER</a>
-        <div class="dropdown-content">
-           <a href="#">logout</a>
-	</div>
-</li>
-
+                        <li class="dropdown"><a class="dropbtn">NAME USER</a><div class="dropdown-content"><a href="#">logout</a></div></li>
                     </ul>
                 </nav>
             </header>
@@ -52,9 +47,7 @@
 
                 <p>Choose • Share • Eat </p>
                   <p> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Upload</button></p>
-
             </section>
-
 
 
      <!-- card naja -->
@@ -62,6 +55,10 @@
 
      <div class="cards">
 
+
+
+        <!-- Card -->
+        <div class="cards">
 
             <div class="card">
                 <img src="images/keaw.jpg">
@@ -330,6 +327,62 @@
                </form>
              </div>
 
+                <!-- form upload  (div in all form in upload) -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">PicLet's</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+
+
+                      <!-- Upload Form (detail) -->
+                      <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                              <label for="recipient-name" class="col-form-label">Name : </label>
+                              <input type="text01" class="form-control" id="recipient-name">
+                            </div>
+
+                            <div class="form-group">
+                              <label for="message-text" class="col-form-label"><del></del>Description : </label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="sel1">Choose Your Zone :</label>
+                                <select class="form-control" id="sel1">
+                                    <option>JINDA</option>
+                                    <option>GAYGEE</option>
+                                    <option>VCONDO</option>
+                                </select>
+                            </div>
+
+
+                            <!-- browse file button -->
+                            <input id="input-b1" name="input-b1" type="file" class="file">
+
+
+
+                        </form>
+                      </div>
+
+                      <!-- "Send" Button -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary2">Send</button>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
         <!-- Scripts -->
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/js/skel.min.js"></script>
