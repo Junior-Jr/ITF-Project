@@ -83,7 +83,7 @@
                 
                 <!-- "Send" Button -->
                 <div class="modal-footer">
-                    <button class="btn btn-primary2" type='submit'>Send</button>
+                    <button class="btn btn-primary2" type='submit'>Upload</button>
                 </div>
             </form>
             </div>
