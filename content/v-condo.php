@@ -10,7 +10,7 @@
 </section>
 
 <!-- card naja -->
-<div class="cards">
+<div class="cards" style="padding-bottom: 1px;">
     <div class="cards">
         <?php
         $query = mysqli_query($conn, "select * from gallery");
@@ -23,7 +23,7 @@
                             <span class="left"></span>
                             <span class="right"></span>
                         </a>
-                        <h2><?php echo $result['title'] ?></h2>
+                        <h2><span style="display:inline-block; width: 240px ;word-wrap: break-word;"><?php echo $result['title'] ?></span></h2>
                         <small><?php echo $result['date'] ?></small>
                     </div>
                     <div class="card-flap flap1">
@@ -82,7 +82,7 @@
             
             <!-- "Send" Button -->
             <div class="modal-footer">
-                <button class="btn btn-primary2" type='submit'>Upload</button>
+                <button class="btn btn-primary2" type='submit'>Send</button>
             </div>
         </form>
         </div>

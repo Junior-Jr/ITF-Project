@@ -144,15 +144,6 @@
                     <li><button class="button special big" id="signinhome" href="#signin" data-toggle="modal" data-target=".bs-modal-sme">Sign In</button> </li>
                     <li><button class="button special big" id="signinhome" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Sign Up</button> </li>
                 <?php else: ?>
-                    <header id="header" class="alt">
-                        <h1><strong><a href="index.html" style="text-decoration:none"></a></strong></h1>
-
-                        <nav id="nav">
-                            <ul>
-                            <li class="dropdown"><a class="dropbtn">NAME USER</a><div class="dropdown-content"><a href="?page=logout">Sign Out</a></div></li>
-                            </ul>
-                        </nav>
-                    </header>
                     <li><a href='?page=logout'><button class="button special big" id="signinhome">Sign Out</button></li></a>
                 <?php endif ?>
                 <li><a href="#" class="button special big" id='explore'>Explore</a></li>

@@ -19,7 +19,7 @@
 <body>
     <?php
         // connect database
-        $conn = mysqli_connect('localhost', 'it60070128_palm', 'palm8ikaa', 'it60070128_palm') or die(mysqli_error($conn));
+        $conn = mysqli_connect('localhost', 'root', '', 'palm') or die(mysqli_error($conn));
 
         // start session
         session_start();
