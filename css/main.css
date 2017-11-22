@@ -2106,4 +2106,18 @@
 .fade {
 	opacity: 100;
 }
-z
+
+.modal-contentz {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: .3rem;
+	outline: 0;
+	width: 500px;
+}
