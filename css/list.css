@@ -2735,6 +2735,7 @@
         }
 
         .wrapper.style3 {
+            
             background-attachment: fixed;
             background-image: url("../images/overlay.png"), url("../images/banner.jpg");
             background-position: center center;
@@ -3266,4 +3267,73 @@
                     padding: 0;
                 }
 
+<<<<<<< HEAD
+        }
+
+        .fade {
+            opacity: 100;
+        }
+
+
+li a, .dropbtn {
+    
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 120px;
+    z-index: 2;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: transparent;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.button23 {
+  display: inline-block;
+  padding: 12px 22px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px transparent;
+}
+
+.button23:hover {
+    background-color: transparent;
+    box-shadow: 0 5px transparent;
+    text-decoration: none;
+}
+
+.button23:active {
+  background-color: transparent;
+  transform: translateY(4px);
+  text-decoration: none;
+}
+=======
         }

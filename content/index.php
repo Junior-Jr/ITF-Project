@@ -149,7 +149,7 @@
 
                         <nav id="nav">
                             <ul>
-                            <li class="dropdown"><a class="dropbtn">NAME USER</a><div class="dropdown-content"><a href="?page=logout">logout</a></div></li>
+                            <li class="dropdown"><a class="dropbtn">NAME USER</a><div class="dropdown-content"><a href="?page=logout">Sign Out</a></div></li>
                             </ul>
                         </nav>
                     </header>
