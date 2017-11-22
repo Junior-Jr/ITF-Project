@@ -13,18 +13,19 @@
 </head>
     <body class="landing">
 
+
+
+
         <!-- Banner -->
             <section id="banner">
                 <img src="images/logo.png"> <br>
                 <!-- login -->
-                <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-sm">
+                <div class="modal fade bs-modal-sme" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sme">
                         <div class="modal-content">
                             <br>
                             <div class="bs-example bs-example-tabs">
-                                <ul id="myTab" class="nav nav-tabs">
-                                    <li class="active"><button class="button special small"><a href="#signin" style="text-decoration:none" data-toggle="tab"><font color='white'>Sign In</font></a></li>
-                                    <li><button class="button special small"><a href="#signup" style="text-decoration:none" data-toggle="tab"><font color='white'>Register</font></a></li>
+                                    SIGN- IN
                                 </ul>
                             </div>
                             <div class="modal-body">
@@ -49,15 +50,46 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- Multiple Checkboxes (inline) -->
-                                                <div class="control-group">
-                                                    <label class="control-label" for="rememberme"></label>
-                                                    <div class="controls">
-                                                        <label class="checkbox inline" for="rememberme-0">
-                                                        <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
-                                                        Remember me</label>
-                                                    </div>
-                                                </div>
+
+
+                        <!-- register -->
+
+                        <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <br>
+                                    <div class="bs-example bs-example-tabs">
+                                            SIGN- IN
+                                        </ul>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="myTabContent" class="tab-content">
+                                            <div class="tab-pane fade active in" id="signin">
+                                                <form class="form-horizontal">
+                                                    <fieldset>
+                                                        <!-- Sign In Form modal -->
+                                                        <!-- Text input-->
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="userid">Username:</label>
+                                                            <div class="controls">
+                                                                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="Username" class="input-medium" required="">
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Password input-->
+                                                        <div class="control-group">
+                                                            <label class="control-label" for="passwordinput">Password:</label>
+                                                            <div class="controls">
+                                                                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+
+
 
                                                     <!-- Button -->
                                                 <div class="control-group">
@@ -118,6 +150,7 @@
                                             </fieldset>
                                         </form>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -129,9 +162,12 @@
                     </div>
                 </div>
                 <br>
+
+
                 <!-- <end of login> -->
                 <ul class="actions">
-                    <li><button class="button special big" id="signinhome" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Sign In/Register</button> </li>
+                    <li><button class="button special big" id="signinhome" href="#signin" data-toggle="modal" data-target=".bs-modal-sme">Sign In</button> </li>
+                    <li><button class="button special big" id="signinhome" href="#signup" data-toggle="modal" data-target=".bs-modal-sm">Register</button> </li>
                     <li><a href="#" class="button special big" id='explore'>Explore</a></li>
                 </ul>
             </section>
@@ -176,11 +212,11 @@
             <script src="js/jquery-3.2.1.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
             <script src="js/bootstrap.min.js"></script>
-            <script src="js/skel.min.js"></script>
-            <script src="js/util.js"></script>
+            <!-- <script src="js/skel.min.js"></script> -->
+            <!-- <script src="js/util.js"></script> -->
             <script src="js/main.js"></script>
             <script src="js/scroll.js"></script>
-            <script src="js/button.js"></script>
+            <!-- <script src="js/button.js"></script> -->
 
     </body>
 </html>
