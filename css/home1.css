@@ -9,7 +9,7 @@
 
 .contv2 {
   margin-top: 50%;
-  
+
 }
 
 
@@ -253,4 +253,39 @@ button.close {
   font-size: 2em;
 
 
+}
+
+li a, .dropbtn {
+
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 120px;
+    z-index: 2;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: transparent;}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
