@@ -3120,6 +3120,10 @@
 
         @media screen and (max-width: 1280px) {
 
+            .cards{
+                padding-left: 8%;
+            }
+
             #banner {
                 padding: 14em 0 11em 0;
             }
@@ -3131,6 +3135,9 @@
         }
 
         @media screen and (max-width: 980px) {
+            .cards{
+                padding-left: 10%;
+            }
 
             #banner {
                 padding: 9em 0 7em 0;
@@ -3139,6 +3146,10 @@
         }
 
         @media screen and (max-width: 736px) {
+
+            .cards{
+                padding-left: 25%;
+            }
 
             #banner {
                 padding: 6em 2em 6em 2em;
@@ -3159,6 +3170,9 @@
         }
 
         @media screen and (max-width: 480px) {
+            .cards{
+                padding-left: 5%;
+            }
 
             #banner {
                 padding: 4em 2em 4em 2em;

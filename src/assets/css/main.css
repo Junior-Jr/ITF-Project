@@ -291,6 +291,10 @@
 
 		@media screen and (max-width: 1680px) {
 
+			.wrapper{
+				padding: 0em 0 4em 0;
+			}
+
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
@@ -298,6 +302,10 @@
 		}
 
 		@media screen and (max-width: 1280px) {
+				
+			.wrapper.style3 {
+				padding: 0em 0 4em 0;
+			}
 
 			body, input, select, textarea {
 				font-size: 11pt;
@@ -1216,6 +1224,14 @@
 
 				.wrapper.style3 header.major h2 {
 					color: #ffffff;
+				}
+
+				@media screen and (max-width: 1680px) {
+					
+					.wrapper{
+						padding: 0em 0 4em 0;
+					}	
+					
 				}
 
 				@media screen and (max-width: 1280px) {
